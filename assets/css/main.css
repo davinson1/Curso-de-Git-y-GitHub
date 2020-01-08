@@ -1,0 +1,152 @@
+
+/*
+#EE5A24
+#009432
+#0652DD
+#9980FA
+#833471
+*/
+.imgpizza{
+    float: left;
+    width: 40%;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.address1{
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 2em;
+}
+.position{
+    background-color: #F37335;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.fa-star{
+    color: #ffc400;
+}
+.table tr:nth-child(even)
+{
+background-color: rgb(248, 233, 194);
+
+}
+.table td, .table th {
+
+padding: 1em;
+text-align: left;
+}
+.table{
+    width: 100% ;
+    border-spacing: 0;
+}
+
+.fuentetitulo{
+    font-family: 'Shadows Into Light', cursive;
+    border-bottom: #F37335 solid 2px;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.paragraph{
+    line-height: 1.8em;
+}
+
+a{
+    text-decoration: none;
+    color: #F37335;
+}
+
+html{
+
+font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+.container {
+
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content{
+
+    max-width: 960px;
+    
+    height: 80vh;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    position: relative;
+    padding: 1.8em;
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.actions {
+
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    margin-right: 0.5em;
+}
+
+.close{
+    background-color: #F37335;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+
+
+}
+
+@media(max-width:600px){
+.content{
+
+    padding: 1em;
+    margin: 7%;
+}
+
+td {
+    display: block;
+    width: 80%;
+   
+}
+th {
+    display: none;
+}
+
+td:nth-of-type(1) {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+}
+
+@media(min-height:550px) {
+
+    .content {
+    height: 550px;
+    }
+
+}
