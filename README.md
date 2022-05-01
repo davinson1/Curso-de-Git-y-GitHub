@@ -1,2 +1,2 @@
 # Curso-de-Git
-Curso de git desde codigo facilito
+Repositorio creado pare realziar el curso de Git y GitHub con la plataforma de aprendizaje Código Facilito.
